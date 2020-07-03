@@ -1,0 +1,16 @@
+{
+  "name": "kowals-static-blog-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jstransformer-markdown-it": "^2.1.0",
+    "pug": "^3.0.0"
+  }
+}
