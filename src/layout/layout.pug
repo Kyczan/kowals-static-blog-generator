@@ -12,14 +12,19 @@ html(lang="en")
     link(href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet")
     link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous")
-    link(rel="stylesheet" href="style.css" media="screen")
+    link(rel="stylesheet" href="/assets/style.css" media="screen")
     block title
+
+    // Matomo
+    script(type="text/javascript")
+      include includes/_tracking.js
+    // End Matomo Code
 
   body(class='colorscheme-light')
     main(class='wrapper')
-      include _header.pug
+      include includes/_header.pug
 
       div(class="content")
         block content
 
-      include _footer.pug
+      include includes/_footer.pug

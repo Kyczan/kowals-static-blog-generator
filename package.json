@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^9.0.1",
     "jstransformer-markdown-it": "^2.1.0",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "slug": "^3.3.0"
   }
 }
