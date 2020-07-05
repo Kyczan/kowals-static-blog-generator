@@ -297,6 +297,11 @@ img.emoji {
   hyphens: auto;
 }
 
+.content article .post-date {
+  font-size: 1.3rem;
+  color: #666666;
+}
+
 .content .post .post-title {
   margin-bottom: 0.75em;
 }
