@@ -1,13 +1,25 @@
 {
   "name": "kowals-static-blog-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static blog generator from markdown and pug files",
   "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "start": "node ./lib/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "kowals-static-blog-generator": "./lib/index.js"
+  },
+  "keywords": [
+    "static",
+    "blog",
+    "generator",
+    "markdown",
+    "pug"
+  ],
+  "author": "Krystian Kowal <krystian@kowal.pro>",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^9.0.1",
