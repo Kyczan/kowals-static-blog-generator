@@ -7,7 +7,9 @@
     "lib/**/*"
   ],
   "scripts": {
-    "start": "node ./lib/index.js"
+    "start": "node ./lib/index.js",
+    "version": "git add --all",
+    "postversion": "git push && git push --tags"
   },
   "bin": {
     "kowals-static-blog-generator": "./lib/index.js"
