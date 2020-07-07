@@ -32,5 +32,8 @@
     "jstransformer-markdown-it": "^2.1.0",
     "pug": "^3.0.0",
     "slug": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
   }
 }
