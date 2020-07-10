@@ -1,6 +1,6 @@
 {
   "name": "kowals-static-blog-generator",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Static blog generator from markdown and pug files",
   "main": "lib/index.js",
   "files": [
