@@ -21,9 +21,11 @@ Next open `package.json` and add following script in script section:
 
 ```json
 "scripts": {
-  "build": "kowals-static-blog-generator ./src ./dist"
+  "build": "kowals-static-blog-generator ./src ./dist https://yoursite.example"
 },
 ```
+
+Of course `https://yoursite.example` change to your site. However this param is optional. If you provide it - generator will create `sitemap.xml` file in the root of `.dist` directory. If omitted - no `sitemap.xml` will be created. This file is helpful for bots to properly index site.
 
 Now you are able to run following command from terminal
 
@@ -88,7 +90,8 @@ dist/
   |    `- 2020-07-10-another-title.html
   |
   |- blog.html
-  `- index.html
+  |- index.html
+  `- sitemap.xml
 ```
 
 This files can be uploaded directly to the server.
