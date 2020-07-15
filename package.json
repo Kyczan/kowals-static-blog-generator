@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./lib/index.js",
     "version": "git add --all",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "bin": {
     "kowals-static-blog-generator": "./lib/index.js"
@@ -31,6 +31,7 @@
     "chalk": "^4.1.0",
     "fs-extra": "^9.0.1",
     "jstransformer-markdown-it": "^2.1.0",
+    "n-readlines": "^1.0.0",
     "pug": "^3.0.0",
     "slug": "^3.3.0"
   },
